@@ -1,0 +1,10 @@
+
+<suite name="raporlu dosyalar">
+    <test name="rapor icin hazirlanan Classlar">
+        <packages>
+            <package name="tests.day19_testNGreporst_crossBrowserTest"></package>
+        </packages>
+    </test>
+
+
+</suite>
