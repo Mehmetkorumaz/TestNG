@@ -32,7 +32,7 @@ public class C05_QualitydemyNegatifLoginTesti {
         Driver.getDriver().get("https://www.qualitydemy.com/");
 
         qualitydemyPage= new QualitydemyPage();
-        qualitydemyPage.cookieButon1.click();
+
         qualitydemyPage.ilkLoginLinki.click();
         qualitydemyPage.emailKutusu.sendKeys("alican@gmail.com");
         qualitydemyPage.passwordKutusu.sendKeys("Nevzat152032");

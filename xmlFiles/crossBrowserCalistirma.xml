@@ -2,10 +2,16 @@
 <suite name="cross browser sirali calistirma">
     <test name="crome ile caliscak testler">
         <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="tests.day20_crossBrowserCalisacakTestler"></package>
+        </packages>
 
     </test>
     <test name="erge(firefox) ile caliscak testler">
         <parameter name="browser" value="firefox"></parameter>
+        <packages>
+            <package name="tests.day20_crossBrowserCalisacakTestler"></package>
+        </packages>
     </test>
 
 </suite>
