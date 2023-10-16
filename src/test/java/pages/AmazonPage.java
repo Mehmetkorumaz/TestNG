@@ -30,4 +30,6 @@ public class AmazonPage {
 
     @FindBy(xpath = "//span[@class='a-size-large product-title-word-break']")
     public WebElement ilkUrunIsimElementi;
+    @FindBy(xpath = "//div[@class='a-section a-spacing-small a-spacing-top-small']")
+    public WebElement javaAramaSonucYazisi;
 }
