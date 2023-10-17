@@ -8,27 +8,10 @@ import utilities.Driver;
 public class BestbuyPage {
     public BestbuyPage(){PageFactory.initElements(Driver.getDriver(),this);}
 
-    @FindBy(xpath = "(//img[@src='https://www.bestbuy.com/~assets/bby/_com/header-footer/images/bby_logo-a7e90594729ed2e119331378def6c97e.png'])[1]")
+    @FindBy(xpath = "//*[@*='hdr_lgo']")
     public WebElement bestbuyLogo;
     @FindBy(xpath = "//button[normalize-space()='Français']")
     public WebElement fransiyisLinkElement;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    8
 
 }
